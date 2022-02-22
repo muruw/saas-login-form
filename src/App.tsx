@@ -1,10 +1,10 @@
 import React from 'react';
-import Login from './access/Login';
+import LoginForm from './access/LoginForm';
 
 function App() {
   return (
     <div className="App">
-      <Login />
+      <LoginForm />
     </div>
   );
 }
