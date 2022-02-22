@@ -5,9 +5,12 @@ import { Visibility, VisibilityOff } from '@mui/icons-material';
 interface ComponentProps {
   password: string;
   setPassword: ChangeEventHandler<HTMLTextAreaElement | HTMLInputElement>;
+  helperText?: string;
 }
 
-function PasswordTextField({ password, setPassword }: ComponentProps) {
+function PasswordTextField(
+  { password, setPassword, helperText }: ComponentProps,
+) {
   const [showPassword, setShowPassword] = useState(false);
   const handleShowPassword = () => {
     setShowPassword(!showPassword);
@@ -28,7 +31,7 @@ function PasswordTextField({ password, setPassword }: ComponentProps) {
       value={password}
       onChange={setPassword}
       variant="outlined"
-      helperText="Your password must be at least 6 characters."
+      helperText={helperText}
       InputProps={{
         endAdornment: (
           <InputAdornment position="end">
