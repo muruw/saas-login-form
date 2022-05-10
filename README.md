@@ -1,3 +1,10 @@
+# SaaS Login Form
+
+Straight-forward login form template to use in your projects. Created using React and Typescript.
+
+![Login form screenshot](/resources/loginform.png "Screenshot")
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
