@@ -16,9 +16,7 @@ function PasswordTextField(
     setShowPassword(!showPassword);
   };
 
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  // @ts-ignore
-  const handleMouseDownPassword = (e: MouseEvent<HTMLButtonElement>) => {
+  const handleMouseDownPassword = (e: React.MouseEvent) => {
     e.preventDefault();
   };
 

@@ -10,14 +10,14 @@ function ThirdPartyLoginFields() {
         <ThirdPartyLogin
           label="Sign in with Google"
           icon={<Google />}
-          onClick={() => console.log('tere')}
+          onClick={() => console.log('Google')}
         />
       </Grid>
       <Grid item xs={12}>
         <ThirdPartyLogin
           label="Sign in with Github"
           icon={<GitHub />}
-          onClick={() => console.log('github')}
+          onClick={() => console.log('Github')}
         />
       </Grid>
     </Grid>
